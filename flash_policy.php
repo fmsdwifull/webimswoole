@@ -1,5 +1,6 @@
 <?php
-$serv = new swoole_server("0.0.0.0", 843);
+#$serv = new swoole_server("0.0.0.0", 843);
+$serv = new swoole_server("0.0.0.0", 8888);
 $serv->set(array(
 	'worker_num' => 1,
 	//'daemonize' => true,

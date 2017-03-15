@@ -197,3 +197,7 @@ Web服务器：此项目中可以用基于Swoole的App Server充当Web服务器�
 Socket服务器：此项目中浏览器的WebSocket客户端连接的服务器，swoole_framework中有实现WebSocket协议PHP版本的服务器。
 
 WebSocket Client：实现html5的浏览器都支持WebSocket对象，如不支持此项目中有提供flash版本的实现。
+
+本人注：
+部署不成功，耗费我两天时间，就此打住。以后再看，作者部署资料不全，程序本身有bug，特别是代理，存在问题。
+

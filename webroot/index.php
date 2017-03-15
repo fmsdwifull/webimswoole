@@ -10,6 +10,7 @@ require dirname(__DIR__) . '/vendor/autoload.php';
 /**
  * Swoole框架自动载入器初始化
  */
+
 Swoole\Loader::vendorInit();
 Swoole::$php->config->setPath(ROOT_PATH . '/configs');
 Swoole::$php->runMVC();
